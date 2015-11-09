@@ -1,0 +1,408 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<title>Ускоряемся. Начинаем верстать быстрее</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Ускоряемся. Начинаем верстать быстрее</h1>
+		<p>Инструменты современного веб-разработчика</p>
+	</header>
+	<section class="slide cover" id="Cover"><div>
+		<h2>Ускоряемся. Начинаем верстать быстрее</h2>
+		<p>Автор: Роман Тиханович</p>
+		<img src="pictures/cover.jpg" alt="">
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#Cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				text-shadow: 1px 1px #000
+				}
+			#Cover p {
+				margin:20px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-size:25px;
+				text-shadow: 1px 1px #000
+				}
+				#Cover p a {
+					color:#FFF;
+					}
+		</style>
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Workflow современного frontend разработчика</h2>
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Sublime Text</h2>
+		<img src="pictures/sublime_text.png" alt="">
+	</div></section>
+	<section class="slide shout"><div>
+		<h2>Emmet</h2>
+	</div></section>
+	<section class="slide"><div>
+		<pre>
+			<code><mark>html:5</mark></code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<pre>
+			<code>&lt;!DOCTYPE html&gt;</code>
+			<code>&lt;html lang=&quot;en&quot;&gt;</code>
+			<code>&lt;head&gt;</code>
+			<code>    &lt;meta charset=&quot;UTF-8&quot;&gt;</code>
+			<code>    &lt;title&gt;Document&lt;/title&gt;</code>
+			<code>&lt;/head&gt;</code>
+			<code>&lt;body&gt;</code>
+				
+			<code>&lt;/body&gt;</code>
+			<code>&lt;/html&gt;</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<pre>
+			<code>ul.nav<mark>></mark>li<mark>*3</mark><mark>></mark>a.nav__item</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<pre>
+			<code>&lt;ul class=&quot;nav&quot;&gt;</code>
+				<code>    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;nav__item&quot;&gt;&lt;/a&gt;&lt;/li&gt;</code>
+				<code>    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;nav__item&quot;&gt;&lt;/a&gt;&lt;/li&gt;</code>
+				<code>    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;nav__item&quot;&gt;&lt;/a&gt;&lt;/li&gt;</code>
+			<code>&lt;/ul&gt;</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<pre>
+			<code>.block {</code>
+			<code>    <mark>bg</mark></code>
+			<code>    <mark>p10</mark></code>
+			<code>    <mark>mb5</mark></code>
+			<code>    <mark>fs14</mark></code>
+			<code>    <mark>pa</mark></code>
+			<code>}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<pre>
+			<code>.block {</code>
+			<code>    <mark>background: #FFF;</mark> </code>
+			<code>    <mark>padding: 10px;</mark></code>
+			<code>    <mark>margin-bottom: 5px;</mark></code>
+			<code>    <mark>font-size: 14px;</mark></code>
+			<code>    <mark>position: absolute;</mark></code>
+			<code>}</code>
+		</pre>
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>CSS Hat</h2>
+		<img src="pictures/csshat.png" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<img src="pictures/csshat_1.png" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<img src="pictures/csshat_2.png" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>PNG Hat</h2>
+		<img src="pictures/pnghat.png" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<img src="pictures/pnghat_1.png" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Bower</h2>
+		<img src="pictures/bower.png" alt="">
+	</div></section>
+	<section class="slide"><div>
+		<h2>Установка Bower</h2>
+		<pre>
+			<code>npm install -g bower</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Установка пакетов</h2>
+		<pre>
+			<code><mark class="comment"># registered package</mark></code>
+			<code>bower install jquery</code>
+			<code><mark class="comment"># GitHub shorthand</mark></code>
+			<code>bower install desandro/masonry</code>
+			<code><mark class="comment"># Git endpoint</mark></code>
+			<code>bower install git://github.com/user/package.git</code>
+		</pre>
+	</div></section>
+	<section class="slide shout"><div>
+		<h2>Препроцессоры</h2>
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Sass</h2>
+		<img src="pictures/sass.png" alt="">
+	</div></section>
+	<section class="slide"><div>
+		<h2>Переменные</h2>
+		<pre>
+			<code><mark>$color_red</mark>: #ff0000</code>
+			<code><mark>$color_yellow</mark>: #ff0</code>
+			<code><mark>$font_header</mark>: 32px</code>
+			<code>.block</code>
+			<code>    background: <mark>darken($color_red, 20%)</mark></code>
+			<code>    color: <mark>$color_yellow</mark></code>
+			<code>    font-size: <mark>$font_header</mark></code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Вложенность</h2>
+		<pre>
+			<code><mark>.block</mark></code>
+			<code>    display: block</code>
+			<code>    position: relative</code>
+			<code>    <mark>.block__inner</mark></code>
+			<code>        color: #fff</code>
+			<code>        <mark>&:hover</mark></code>
+			<code>            color: #000</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Вложенность</h2>
+		<pre>
+			<code><mark>.block</mark> {display: block; position: relative;}</code>
+			<code><mark>.block .block__inner</mark> {color: #fff}</code>
+			<code><mark>.block .block__inner:hover</mark> {color: #000}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Наследование</h2>
+		<pre>
+			<code><mark>.block</mark></code>
+			<code>    border: 1px solid #ff0000</code>
+			<code>.block__inner</code>
+			<code>    <mark>@extend .block</mark></code>
+			<code>    color: #000</code>
+			<code>.block__example</code>
+			<code>    <mark>@extend .block</mark></code>
+			<code>    color: #fff</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Наследование</h2>
+		<pre>
+			<code><mark>.block,</mark></code>
+			<code><mark>.block__inner,</mark></code>
+			<code><mark>.block__example</mark> {border: 1px solid #ff0000;}</code>
+			<code><mark>.block__inner</mark> {color: #000;}</code>
+			<code><mark>.block__example</mark> {color: #fff;}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Примеси</h2>
+		<pre>
+			<code><mark>@mixin border-radius(<mark class="important">$radius</mark>)</mark></code>
+			<code>    -webkit-border-radius: <mark class="important">$radius</mark></code>
+			<code>    -moz-border-radius: <mark class="important">$radius</mark></code>
+			<code>    -ms-border-radius: <mark class="important">$radius</mark></code>
+			<code>    border-radius: <mark class="important">$radius</mark></code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Примеси</h2>
+		<pre>
+			<code>.block</code>
+			<code>    <mark>@include</mark> border-radius(<mark class="important">10px</mark>)</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Примеси</h2>
+		<pre>
+			<code>.block {</code>
+			<code>    <mark>-webkit-border-radius: <mark class="important">10px</mark>;</mark></code>
+			<code>    <mark>-moz-border-radius: <mark class="important">10px</mark>;</mark></code>
+			<code>    <mark>-ms-border-radius: <mark class="important">10px</mark>;</mark></code>
+			<code>    <mark>border-radius: <mark class="important">10px</mark>;</mark></code>
+			<code>}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Циклы</h2>
+		<pre>
+			<code>&lt;nav class=&quot;<mark>menu-main</mark>&quot;&gt;</code>
+		    <code>    &lt;ul&gt;</code>
+		    <code>        &lt;li <mark class="important">class=&quot;red&quot;</mark>&gt;&lt;a href=&quot;#&quot;&gt;Автомобили&lt;/a&gt;&lt;/li&gt;</code>
+		    <code>        &lt;li <mark class="important">class=&quot;orange&quot;</mark>&gt;&lt;a href=&quot;#&quot;&gt;Тракторы&lt;/a&gt;&lt;/li&gt;</code>
+		    <code>        &lt;li <mark class="important">class=&quot;green&quot;</mark>&gt;&lt;a href=&quot;#&quot;&gt;Грузовики&lt;/a&gt;&lt;/li&gt;</code>
+		    <code>        &lt;li <mark class="important">class=&quot;blue&quot;</mark>&gt;&lt;a href=&quot;#&quot;&gt;Паровозы&lt;/a&gt;&lt;/li&gt;</code>
+		    <code>    &lt;/ul&gt;</code>
+		    <code>&lt;/nav&gt;</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Циклы</h2>
+		<pre>
+			<code><mark>$colors: #f74a3a #fcbe26 #8cc687 #4da5f2</mark></code>
+			<code>$i:0</code>
+			<code>.menu-main ul li</code>
+			<code>    <mark class="important">@each</mark> $col in red, orange, green, blue</code>
+			<code>        $i: $i + 1</code>
+			<code>        &.#{$col}</code>
+			<code>            background: nth($colors, $i)</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Циклы</h2>
+		<pre>
+			<code>.menu-main ul li.<mark>red</mark> {background: #f74a3a;}</code>
+			<code>.menu-main ul li.<mark>orange</mark> {background: #fcbe26;}</code>
+			<code>.menu-main ul li.<mark>green</mark> {background: #8cc687;}</code>
+			<code>.menu-main ul li.<mark>blue</mark> {background: #4da5f2;}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Спрайты (Сompass)</h2>
+		Инициализация спрайта
+		<pre>
+			<code><mark>$icons</mark>: sprite-map("icons/*.png", <mark>$spacing</mark>: 10px);</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Спрайты (Сompass)</h2>
+		Размеры картинки
+		<pre>
+			<code><mark>@mixin</mark> image-size($path){</code>
+			<code>    width: image-width($path);</code>
+			<code>    height: image-height($path);</code>
+			<code>}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Спрайты (Сompass)</h2>
+		Сокращение
+		<pre>
+			<code><mark>@mixin</mark> <mark class="important">s</mark>($sprite, $map: $icons){</code>
+			<code>    background: sprite($map, $sprite) no-repeat;</code>
+			<code>    @include image-size(sprite-file($map, $sprite));</code>
+			<code>}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Спрайты (Сompass)</h2>
+		Добавление в sass
+		<pre>
+			<code>.logo</code>
+			<code>    <mark>+s</mark>(<mark class="important">logo</mark>)</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Спрайты (Сompass)</h2>
+		После компиляции
+		<pre>
+			<code>.logo {</code>
+			<code>    background: url('img/<mark class="important">icons-s642909cfb9.png</mark>')</code>
+			<code>    -34px 0 no-repeat;</code>
+			<code>    width: <mark>45px;</mark></code>
+			<code>    height: <mark>38px;</mark></code>
+			<code>}</code>
+		</pre>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Спрайты (Сompass)</h2>
+		Компиляция Sass+Compass (в терминале)
+		<pre>
+			<code>compass <mark class="important">compile</mark></code>
+			<code>compass <mark class="important">watch</mark></code>
+		</pre>
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Gulp</h2>
+		<img src="pictures/gulp.png" alt="">
+	</div></section>
+	<section class="slide"><div>
+		<h2>Gulp сборка проекта</h2>
+		<ul>
+			<li>Минификация CSS, JS, HTML</li>
+		</ul>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Gulp сборка проекта</h2>
+		<ul>
+			<li>Минификация CSS, JS, HTML</li>
+			<li>Сжатие картинок</li>
+		</ul>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Gulp сборка проекта</h2>
+		<ul>
+			<li>Минификация CSS, JS, HTML</li>
+			<li>Сжатие картинок</li>
+			<li>Компиляция</li>
+		</ul>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Gulp сборка проекта</h2>
+		<ul>
+			<li>Минификация CSS, JS, HTML</li>
+			<li>Сжатие картинок</li>
+			<li>Компиляция</li>
+			<li>Watch изменений в файлах</li>
+		</ul>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Gulp сборка проекта</h2>
+		<ul>
+			<li>Минификация CSS, JS, HTML</li>
+			<li>Сжатие картинок</li>
+			<li>Компиляция</li>
+			<li>Watch изменений в файлах</li>
+			<li>Локальный сервер с livereload</li>
+		</ul>
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Gistbox (github)</h2>
+		<img src="pictures/gistbox.jpeg" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Gistbox (github)</h2>
+		<img src="pictures/gistbox_1.png" width="100%" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Alfred macOS</h2>
+		<img src="pictures/alfred.png" alt="">
+	</div></section>
+	<section class="slide" style="text-align: center"><div>
+		<h2>Alfred macOS</h2>
+		<img src="pictures/alfred_1.jpg" alt="">
+	</div></section>
+	<section class="slide shout"><div>
+		<h2>Launchy на Windows</h2>
+	</div></section>
+	<section class="slide shout"><div>
+		<h2>Вопросы?</h2>
+	</div></section>
+	<section class="slide"><div>
+		<h2>Спасибо</h2>
+		<p>Роман Тиханович</p>
+		<ul>
+			<li>Email: <a href="mailto:romant3777@gmail.com">romant3777@gmail.com</a></li>
+			<li>Vk: <a href="vk.com/romantihanovich">vk.com/romantihanovich</a></li>
+		</ul>
+	</div></section>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
